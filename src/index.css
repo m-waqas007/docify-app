@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+::selection {
+    color: #e8912f;
+}
