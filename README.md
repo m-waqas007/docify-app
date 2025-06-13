@@ -1,6 +1,6 @@
-# Docify 🗂️
+# 🗂️ Docify 
 
-Docify is a sleek, animated document UI mini-app built with **React**, **Tailwind CSS**, and **Framer Motion**. It demonstrates draggable document cards with conditional rendering, icons, and interactive tag buttons like "Download Now" or "Upload".
+Docify is a sleek, animated document UI mini-app built with **React**, **Tailwind CSS**, and **Framer Motion**. It simulates draggable document cards with interactive animations and status indicators — perfect as a UI/UX concept or a creative playground for frontend practice.
 
 ## 🚀 Features
 
@@ -21,14 +21,11 @@ Docify is a sleek, animated document UI mini-app built with **React**, **Tailwin
 ```
 
 src/
-│
-├── components/
-│   ├── Background.jsx
-│   ├── Card.jsx
-│   └── Foreground.jsx
-│
-├── App.jsx
-└── index.css
+├── Card.jsx          // Reusable draggable card
+├── Background.jsx    // Static background UI
+├── Foreground.jsx    // Renders dynamic cards
+├── App.jsx           // Main wrapper
+└── index.css         // Tailwind styles and global styles
 
 ```
 
@@ -45,9 +42,13 @@ _coming soon.._
 
 ## 🔗 Live Demo
 
-_Coming soon..._ 
+_(https://docify-app.vercel.app/)_ 
 
-## 📜 License
+💡 Notes
+This app is built for learning purposes and UI experimentation. Future enhancements may include:
 
-This project is for learning purposes and open for improvements and contributions.
+- Dynamic document upload support
+- Local storage or backend integration
+- Theming options
+
 ```
